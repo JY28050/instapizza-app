@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/instapizza-app/static/css/main.de81c20f.css",
-    "main.js": "/instapizza-app/static/js/main.70543463.js",
+    "main.css": "/instapizza-app/static/css/main.795605d0.css",
+    "main.js": "/instapizza-app/static/js/main.a28cfde1.js",
     "static/media/bg-1.jpg": "/instapizza-app/static/media/bg-1.5dda12bbab2b2a8dc1b2.jpg",
     "index.html": "/instapizza-app/index.html",
-    "main.de81c20f.css.map": "/instapizza-app/static/css/main.de81c20f.css.map",
-    "main.70543463.js.map": "/instapizza-app/static/js/main.70543463.js.map"
+    "main.795605d0.css.map": "/instapizza-app/static/css/main.795605d0.css.map",
+    "main.a28cfde1.js.map": "/instapizza-app/static/js/main.a28cfde1.js.map"
   },
   "entrypoints": [
-    "static/css/main.de81c20f.css",
-    "static/js/main.70543463.js"
+    "static/css/main.795605d0.css",
+    "static/js/main.a28cfde1.js"
   ]
 }
