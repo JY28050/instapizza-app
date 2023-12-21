@@ -18,8 +18,8 @@ function App() {
 
   return (
     <CartProvider>
-     {cartIsShown && <Cart onClose={hideCartHandler}/>}
-      <Header onShowCart={showCartHandler}/>
+      {cartIsShown && <Cart onClose={hideCartHandler} />}
+      <Header onShowCart={showCartHandler} />
       <main>
         <Meals />
       </main>
@@ -28,3 +28,15 @@ function App() {
 }
 
 export default App;
+
+/* 
+We want to render the Cart component conditionally. showCartHandler should be called whenever the user clicks on the cart button. 
+
+This button however is part of my Header- we should expect to get it from inside the Header. For the Header to call the function we need to pass a pointer through props. Let's name is onShowCart- kind of like custom events, the convention is name it "on..." whatever. 
+
+Then we can simply point to {showCartHandler} from our props. See Header.js and HeaderCartButton for the chain of events- prop drilling.
+
+Now another custom prop we can make can be called onClose, which points to hideCartHandler function. 
+
+
+*/
